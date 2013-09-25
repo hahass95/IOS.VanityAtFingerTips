@@ -1,9 +1,56 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title></title>
-</head>
-<body>
-
+<html>
+    <head>
+        <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+        <title></title>
+        <link rel="stylesheet" href="css/index.css" /> 
+        <link rel="stylesheet" href="jquery/jquery.mobile-1.3.2.min.css" />
+        
+        <script src="jquery/jquery.mobile.1.9.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+        <script src="jquery/jquery.mobile-1.3.2.min.js"></script>
+    </head>
+<body onload="init();">
+	<div id="header_container">
+		<div id="image_container">
+			<img src="img/logo.png" />
+		</div>
+		<table id="table_container">
+			<tr>
+				<td>
+					<img id="click_to_signin" src="Img/Sign In Button..png" /></td>
+			</tr>
+			<tr>
+				<td>
+					<img src="Img/Sign Up Button..png" /></td>
+			</tr>
+		</table>
+	</div>
+	<div id="body_container">
+		<div id="select_menu">
+			<ul>
+				<li class="main_menu_list">Manage Appointment | </li>
+				<li class="main_menu_list">Find Us | </li>
+				<li class="main_menu_list">About Us </li>
+			</ul>
+		</div>
+		<table id="image_menu">
+			<tr>
+				<td>
+					<img src="Img/Promotion.png"></td>
+			</tr>
+			<tr>
+				<td>
+					<img src="Img/Product.png"></td>
+			</tr>
+			<tr>
+				<td>
+					<img src="Img/Services.png"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="footer"><a >Contact Us</a></div>
+	
 </body>
 </html>
