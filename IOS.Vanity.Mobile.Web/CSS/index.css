@@ -61,3 +61,8 @@ body {
 #login_page {
     display: none;
 }
+
+#footer {
+border: 1px solid red;
+	margin: 0 auto;
+}
