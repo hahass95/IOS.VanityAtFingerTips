@@ -58,6 +58,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\index.css" />
+    <Content Include="Img\Home Page SO.png" />
+    <Content Include="Img\LoginPageFinal.png" />
+    <Content Include="Img\logo.png" />
+    <Content Include="Img\Product.png" />
+    <Content Include="Img\Product1.png" />
+    <Content Include="Img\Promotion.jpg" />
+    <Content Include="Img\Promotion.png" />
+    <Content Include="Img\Services.jpg" />
+    <Content Include="Img\Services.png" />
+    <Content Include="Img\Sign In Button..png" />
+    <Content Include="Img\Sign Up Button..png" />
     <Content Include="Index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -72,9 +83,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
